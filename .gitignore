@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+.dist/
+dist/
+.vite/
+
+# Environment and local config
+.env
+.env.local
+.env.*
+
+# OS/editor cruft
+.DS_Store
+*.log
+.idea/
+.vscode/
+
+# Temporary
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
